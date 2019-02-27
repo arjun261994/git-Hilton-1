@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Counter</title>
+  </head>
+  <style type="text/css">
+    .room-based-container: after{
+      clear: left;
+    }
+    .room-based {
+      border: 1px solid #e5e5e5;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      width: auto;
+      display: inline-block;
+          padding: 4px;
+      border-radius: 10px;
+      background: #e2e2e2;
+    }
+    .room-based.inactive-mode{
+       background:#e5e5e58c;
+    }
+    .room-based.inactive-mode .subBlock{
+       background:#e5e5e58c;
+    }
+    .room-based > div:first-child {
+        padding: 5px 10px;
+            font-size: 13px;
+    }
+
+    .room-based.is-room-checked > div:first-child {
+        font-weight: bold;
+    }
+
+    .room-based > div:last-child {
+        padding: 15px 10px;
+    }
+    .subBlock {
+        background: #ffffff;
+        font-size: 13px;
+    }
+    .width-50{
+      width: 63px;
+      display: inline-block;
+    }
+    .width-50 select{
+      display: block;
+      text-align: center;
+      width: 65%;
+    }
+    button{
+      padding: 5px 10px;
+    }
+    .inline-block{
+      display: block;
+      margin-left: 2%;
+    }
+    .checkbox {
+      margin: 0;
+      margin-right: 4px;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` in this folder.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>
